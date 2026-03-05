@@ -1,5 +1,5 @@
 import styles from './MainContent.module.css';
-
+import Tooltip from "./Tooltip";
 interface Column {
   id: string;
   title: string;
@@ -13,6 +13,7 @@ interface MainContentProps {
 export default function MainContent({ columns }: MainContentProps) {
   return (
     <main className={styles.main}>
+      <Tooltip />
       <div className={styles.board}>
         {columns.map((col) => (
           <div key={col.id} className={styles.column}>
