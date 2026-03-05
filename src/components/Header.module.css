@@ -1,45 +1,3 @@
-/* .header {
-  display: flex;
-  justify-content: space-between; 
-  align-items: center;
-  height: 56px;                  
-  background-color: #1B8C3E;     
-  color: white;                 
-  padding: 0 16px;               
-  box-sizing: border-box;
-}
-
-.left {
-  display: flex;
-  align-items: center;
-  gap: 12px; 
-}
-
-.menuBtn {
-  font-size: 24px;
-  background: none;
-  border: none;
-  color: white;
-  cursor: pointer;
-}
-
-.logo {
-  font-size: 20px;
-  font-weight: bold;
-}
-
-.avatar {
-  width: 32px;
-  height: 32px;
-  background-color: rgba(255, 255, 255, 0.2);
-  border-radius: 50%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  font-weight: bold;
-} */
-
-
 .header {
   display: flex;
   justify-content: space-between;
@@ -74,4 +32,29 @@
   padding: 0.4rem 0.8rem;
   border-radius: 20px;
   font-size: 0.9rem;
+}
+.right {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.userName {
+  font-size: 0.9rem;
+  opacity: 0.9;
+}
+
+.logoutBtn {
+  background: rgba(255, 255, 255, 0.15);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  color: white;
+  padding: 0.4rem 0.8rem;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 0.85rem;
+  transition: background 0.2s;
+}
+
+.logoutBtn:hover {
+  background: rgba(255, 255, 255, 0.25);
 }
