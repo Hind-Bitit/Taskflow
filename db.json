@@ -1,5 +1,4 @@
 {
-  
   "users": [
     {
       "id": "1",
@@ -21,13 +20,52 @@
     }
   ],
   "projects": [
-    { "id": "1", "name": "Site E-commerce", "color": "#e74c3c" },
-    { "id": "2", "name": "App Mobile", "color": "#3498db" },
-    { "id": "3", "name": "API Backend", "color": "#2ecc71" }
+    {
+      "id": "1",
+      "name": "Site E-commerce",
+      "color": "#e74c3c"
+    },
+    {
+      "id": "2",
+      "name": "App Mobile",
+      "color": "#3498db"
+    },
+    {
+      "id": "3",
+      "name": "API Backend",
+      "color": "#2ecc71"
+    },
+    {
+      "id": "5fc1",
+      "name": "Gestion commande",
+      "color": "#d833db"
+    }
   ],
   "columns": [
-    { "id": "todo", "title": "À Faire", "tasks": ["Maquettes UI", "Specs techniques","xxxxx"] },
-    { "id": "progress", "title": "En Cours", "tasks": ["API Auth", "Page Login"] },
-    { "id": "done", "title": "Terminé", "tasks": ["Setup projet", "Config ESLint"] }
+    {
+      "id": "todo",
+      "title": "À Faire",
+      "tasks": [
+        "Maquettes UI",
+        "Specs techniques",
+        "xxxxx"
+      ]
+    },
+    {
+      "id": "progress",
+      "title": "En Cours",
+      "tasks": [
+        "API Auth",
+        "Page Login"
+      ]
+    },
+    {
+      "id": "done",
+      "title": "Terminé",
+      "tasks": [
+        "Setup projet",
+        "Config ESLint"
+      ]
+    }
   ]
 }

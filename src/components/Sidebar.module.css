@@ -43,3 +43,23 @@
   height: 10px;
   border-radius: 50%;
 }
+.item {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.5rem 0.75rem;
+  text-decoration: none;
+  border-radius: 8px;
+  transition: background 0.2s;
+  color: inherit;
+}
+
+.item:hover {
+  background: #f2f2f2;
+}
+
+.active {
+  background: #e8f5e9;
+  color: #1b8c3e;
+  font-weight: 600;
+}
