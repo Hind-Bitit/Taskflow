@@ -1,0 +1,52 @@
+➤ Q1 : Combien de lignes de CSS ?
+ 0 lignes de CSS ,tout est fait avec sx={{}} directement dans le composant
+
+➤ Q2 : Comparaison MUI vs Bootstrap
+	MUI	Bootstrap
+Lisibilité	Moyen (beaucoup de props)	Plus simple
+Longueur	Plus long	Plus court
+
+
+
+
+➤ Q3 : Je préfere Bootstrap car je suis habitué au CSS classique
+
+Partie 5 : Tableau comparatif
+
+Critère     	    Material UI	   React-Bootstrap
+
+Installation	    Moyenne	        Facile
+Composants	        Beaucoup	    Moins
+CSS écrit	        0	            Peu
+Style	            sx (JS)	        className
+Personnalisation	Très forte	    Moyenne
+Responsive	        Auto	        Auto
+Lisibilité	        Moyenne	        Bonne
+Documentation	    Excellente  	Bonne
+Préférence		                     ✔
+
+➤ Q4 :
+Je choisis MUI car il offre un design moderne, des composants riches prêts à l’emploi et très personnalisable.
+
+
+
+
+Partie 6 : Architecture Base de Données
+
+React (localhost:5173)
+
+ HTTP (Axios)
+        json-server (localhost:4000)
+                       
+
+      db.json
+
+a-	react → Firebase SDK → Firebase DB
+b-	React → Axios → Express API → MongoDB
+➤ Q5 : React ne peut pas accéder à MySQL directement car un backend est nécessaire pour la sécurité et la gestion des requêtes.
+➤ Q6 : json-server n’est pas utilisé en production car il n’est pas sécurisé et il ne permet pas d’implémenter une logique métier avancée.
+➤ Q7 : Firebase permet à React de se connecter directement car il fournit une API sécurisée avec des règles d’authentification et de sécurité intégrées, éliminant le besoin d’un backend personnalisé.
+Partie 7 : Questions de réflexion
+➤ Q8 : Pour passer en production, il faut mettre en place un backend réel, une base de données robuste, un système d’authentification sécurisé.
+➤ Q9 : L’utilisation de bibliothèques externes peut augmenter la taille de l’application, créer une dépendance aux mises à jour.
+➤ Q10 : Pour une application de chat en temps réel, Firebase est le meilleur choix car il offre une synchronisation instantanée des données, une gestion en temps réel et une intégration simple sans backend complexe.

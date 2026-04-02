@@ -1,0 +1,29 @@
+➤ Q1 :
+<Navigate /> est un composant, il peut être rendu conditionnellement dans JSX, contrairement au hook navigate() qui est une fonction à appeler.
+
+➤ Q2 :
+navigate(from) ajoute la page précédente dans l’historique, navigate(from, { replace: true }) remplace l’entrée actuelle, donc bouton Retour ne revient pas au login.
+
+➤ Q3 :
+On fait setProjects(prev => [...prev, data]) pour ajouter le projet localement sans refaire un GET complet, plus rapide et évite le rechargement.
+
+➤ Q4 :
+a-Redirige vers login (ProtectedRoute)
+b-Redirige vers login (ProtectedRoute)
+c-Redirige vers /dashboard (Navigate fallback)
+d-Redirige vers /dashboard (Navigate)
+e-Bouton Retour revient à login si replace: true non utilisé
+
+➤ Q5 :
+<Link> : simple navigation
+<NavLink> : navigation + style actif (isActive)
+NavLink utilisé pour afficher visuellement quel projet est sélectionné.
+
+➤ Q6 :
+Le composant est le même pour POST et PUT, seule la fonction onSubmit change : POST ajoute un nouveau projet, PUT modifie un projet existant.
+
+➤ Q7 :
+Oui, le message d’erreur s’affiche car Axios attrape l’erreur dans le catch.
+
+➤ Q8 :
+Avec Axios, un 404 lance une exception et tombe dans le catch; fetch ne le fait pas automatiquement.
